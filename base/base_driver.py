@@ -2,7 +2,7 @@ from appium import webdriver
 
 
 def init_driver():
-    
+
     desired_caps = {}
     desired_caps['platformName'] = 'Android'
     desired_caps['platformVersion'] = '5.1'

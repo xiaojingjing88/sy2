@@ -27,4 +27,3 @@ class TestContact:
         self.page.new_contact.click_back()
         assert name == self.page.saved_contect.get_name_title_text()
 
-
